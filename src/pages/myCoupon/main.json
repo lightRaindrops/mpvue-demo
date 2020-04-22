@@ -1,0 +1,9 @@
+{
+    "usingComponents": {
+        "van-tabs": "../../static/vant/tabs/index",
+        "van-tab": "../../static/vant/tab/index",
+        "van-count-down": "../../static/vant/count-down/index"
+    },
+    "navigationBarTitleText": "优惠券",
+    "enablePullDownRefresh": true
+}

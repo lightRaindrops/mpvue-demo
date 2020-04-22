@@ -1,0 +1,152 @@
+.message {
+    padding: 60rpx 0;
+    padding-top: 0;
+
+    .item {
+        padding-top: 44rpx;
+        padding-left: 30rpx;
+        padding-right: 30rpx;
+
+        .time {
+            text-align: center;
+            color: #999;
+            font-size: 24rpx;
+            margin: 30rpx 0;
+        }
+
+        .img {
+            width: 68rpx;
+            height: 68rpx;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .msg {
+            background: #f6f6f6;
+            max-width: 488rpx;
+            position: relative;
+            padding: 22rpx 0;
+            margin-left: 30rpx;
+            padding-left: 20rpx;
+            padding-right: 20rpx;
+            border-radius: 15rpx;
+            font-size: 32rpx;
+
+            .msg-img {
+                width: 240rpx;
+                height: 240rpx;
+                border-radius: 10rpx;
+                overflow: hidden;
+            }
+
+            &:before {
+                content: "";
+                position: absolute;
+                right: 100%;
+                top: 26rpx;
+                width: 0;
+                height: 0;
+                border-top: 13rpx solid transparent;
+                border-right: 20rpx solid #f6f6f6;
+                border-bottom: 13rpx solid transparent;
+            }
+
+            &.in {
+                margin-right: 30rpx;
+
+                background: #feeced;
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    left: 100%;
+                    top: 26rpx;
+                    width: 0;
+                    height: 0;
+                    border-top: 13rpx solid transparent;
+                    border-left: 20rpx solid #feeced;
+                    border-right: 0;
+                    border-bottom: 13rpx solid transparent;
+                }
+            }
+        }
+
+
+    }
+}
+
+.bottomX {
+    height: 140rpx;
+    &.isIphoneX{
+        height: 160rpx;
+    }
+}
+
+.bottom {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    height: 130rpx;
+    background: #fff;
+    box-shadow: 0 -8rpx 10rpx rgba(0, 0, 0, 0.06);
+
+    &.isIphoneX {
+        height: 150rpx;
+        padding-bottom: 20rpx;
+    }
+
+    .share,
+    .ans {
+        padding: 0 50rpx;
+        border: 0;
+        height: 100%;
+    }
+
+    .share {
+        color: #999;
+
+        .img {
+            width: 30rpx;
+            height: 30rpx;
+            margin-right: 10rpx;
+        }
+
+        font-size: 28rpx;
+    }
+
+    .ans {
+        background: #f30719;
+        border-radius: 200rpx;
+        color: #fff;
+        margin-right: 30rpx;
+        height: 68rpx;
+    }
+}
+
+
+.icon-img {
+    width: 72rpx;
+    height: 72rpx;
+}
+
+.srk {
+    height: 72rpx;
+    background: #f8f8f8;
+    border: 0;
+    border-radius: 8rpx;
+    margin: 30rpx;
+    padding: 0 20rpx;
+}
+
+.icon-img {
+    margin-right: 20rpx;
+}
+
+.send {
+    color: #fff;
+    width: 82rpx;
+    height: 52rpx;
+    background: #dd9e90;
+    border-radius: 10rpx;
+    margin-right: 20rpx;
+}

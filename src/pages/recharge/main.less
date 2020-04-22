@@ -1,0 +1,91 @@
+
+.wrap {
+  background: #fff;
+  padding: 1px;
+}
+.mainBox{
+  background: #fff; 
+  .title{
+    font-size: 14px; color: #323232; margin-bottom: 20px;
+  }
+  .banlance{
+    padding: 34px 16px 10px;
+    .t{
+      text-align: right;
+      justify-content: flex-end;
+      position: absolute;
+      right:16px;
+      top:10px;
+      a.viewMore {
+          font-size: 14px;
+          color: #666;
+          text-decoration: none;
+      }
+    }
+    .btn.tx{
+      border: 1px solid #f52f3e;
+      color: #f52f3e;
+      padding: 3px 10px;
+      margin-top: 6px;
+    }
+    .b{
+      align-items: flex-start;
+      .item{
+        margin: 16px 0;
+        .bt{
+          color: #999;
+          padding-bottom: 8px;
+        }
+        .price{
+          color: #ff0000;
+          font-size: 28px;
+        }
+      }
+      .czje{
+        border-right: 1px solid #d7d7d7;
+      }
+     
+    }
+    border-bottom: 1px dashed #d7d7d7;
+  }
+  .cz{
+    padding: 0 16px;
+    .group{
+      flex-wrap:wrap; justify-content:center;
+      .item{
+        width: 140px; text-align: center; background: #f8f8f8; height:56px; margin-top: 20px; padding: 10px 0; display: flex; align-items: center; flex-wrap:wrap;
+        border-radius: 5px;
+        .t{
+          color: #323232; font-size: 14px; width: 100%;
+        }
+        .b{
+          color: #ff0000; font-size: 12px; width: 100%;;
+        }
+        &:nth-child(2n-1){
+          margin-right: 20px;
+        }
+        &.active{
+          background: #f52f3e; text-align: center;
+          .t,.b{
+            color: #fff;
+          }
+
+        }
+
+
+      }
+    }
+  }
+  .button{
+    border: 0; display: block; width: 100%; color: #fff; background: #f52f3e; text-align: center; height: 40px; line-height: 40px; font-size: 14px; display: block; border-radius: 3px; margin-top: 36px;
+  }
+  .tx{
+    margin-top: 38px;
+    padding: 0 16px;
+
+    .info{
+      color: #999; font-size: 24rpx; margin-top: 10rpx;
+    }
+  }
+
+}

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-field": "../../static/vant/field/index",
+    "wux-upload":"../../static/wux/upload/index"
+  },
+  "navigationBarTitleText": "咨询类型",
+  "enablePullDownRefresh": false
+}

@@ -1,0 +1,307 @@
+@import '../../less/common.less';
+.nationalDay{
+    width:750rpx;
+    height:1143rpx;
+    background:url('https://static.cgkc.com/miniprogram/gqBg03.jpg')no-repeat center center;
+    background-size:cover;
+    overflow:hidden;
+    .top{
+        float:right;
+        margin-top:26rpx;
+        .item01{
+            padding:8rpx 15rpx;
+            box-sizing: border-box;
+            background:rgba(135,4,7,1);
+            border-radius:20rpx;
+            font-size:24rpx;
+            color:#F5E8D1;
+            margin-right:10rpx;
+        }
+        .item02{
+            padding:8rpx 15rpx;
+            box-sizing: border-box;
+            background:rgba(135,4,7,1);
+            border-radius:20rpx 0px 0px 20rpx;
+            font-size:24rpx;
+            color:#F5E8D1;
+        }
+    }
+    .mainCont{
+        display:flex;
+        position:relative;
+        width:100%;
+        height:500rpx;
+        margin-top:391rpx;
+        .btn01{
+            position:absolute;
+            left:55rpx;
+            top:25rpx;
+
+            button{
+                width:171rpx;
+                height:161rpx;
+                background:transparent;
+            }
+            .imgBtn{
+                width:171rpx;
+                height:161rpx;
+                background:url('https://static.cgkc.com/miniprogram/gqBtn01.png')no-repeat center center;
+                background-size:cover;
+            }
+        }
+        .btn02{
+            position:absolute;
+            left:103rpx;
+            top:94rpx;
+            .imgBtn2{
+                position:relative;
+                width:543rpx;
+                height:354rpx;
+                background:url('https://static.cgkc.com/miniprogram/gqBtn02.png')no-repeat center center;
+                background-size:cover;
+                .clickOpenPrize{
+                    position:absolute;
+                    top:0;
+                    left:136rpx;
+                    width:271rpx;
+                    height:240rpx;
+                }
+            }
+        }
+        .btn05{
+            position:absolute;
+            left:55rpx;
+            top:25rpx;
+            .imgBtn5{
+                position:relative;
+                width:171rpx;
+                height:161rpx;
+                background:url('https://static.cgkc.com/miniprogram/gqBtn05.png')no-repeat center center;
+                background-size:cover;
+            }
+        }
+        .btn03{
+            position:absolute;
+            right:25rpx;
+            .imgBtn3{
+                width:171rpx;
+                height:161rpx;
+                background:url('https://static.cgkc.com/miniprogram/gqBtn03.png')no-repeat center center;
+                background-size:cover;
+                margin-top:152rpx;
+
+            }
+        }
+
+    }
+    .btn04{
+        position: absolute;
+        z-index: 99;
+        left:197rpx;
+        width:364rpx;
+        height:90rpx;
+        margin-top:-94rpx;
+        background:url('https://static.cgkc.com/miniprogram/gqBtn04.png')no-repeat center center;
+        background-size:cover;
+        text-align:center;
+        .tit{
+            margin-top:10rpx;
+            font-size:32rpx;
+            color:#753D02;
+            font-weight:bold;
+            font-family:PingFang SC;
+        }
+        .tip{
+            font-size:20rpx;
+            color:#D53501;
+        }
+    }
+}
+.gqList{
+    padding:30rpx 30rpx 68rpx 30rpx;
+    box-sizing: border-box;
+    background:#ab1c1f;
+    .jlTit{
+        width:680rpx;
+        height:136rpx;
+        margin:22rpx auto 0;
+        background:url('https://static.cgkc.com/miniprogram/gqListBg02.png')no-repeat center center;
+        background-size:cover;
+    }
+    .tipInfo{
+        text-align: center;
+        font-size:26rpx;
+        color:#fff;
+        margin-top:-5rpx;
+    }
+    .listBox{
+        display:flex;
+        align-items:center;
+        width:690rpx;
+        height:300rpx;
+        background:rgba(255,246,230,1);
+        border-radius:20rpx;
+        margin:20rpx auto;
+        padding:0 66rpx;
+        box-sizing: border-box;
+        .boxL{
+
+        }
+        .boxA{
+            text-align:center;
+            .t{
+                font-size:32rpx;
+                color:#222;
+                font-weight:bold;
+            }
+            .count{
+                font-size:48rpx;
+                color:#EE0000;
+                margin-top:10rpx;
+                margin-bottom:17rpx;
+                span{
+                    font-size:28rpx;
+                }
+            }
+            .boxBtn{
+                font-size:28rpx;
+                color:#6C3700;
+                width:208rpx;
+                height:60rpx;
+                line-height:60rpx;
+                text-align: center;
+                background:rgba(250,196,104,1);
+                border-radius:30rpx;
+                font-weight:bold;
+            }
+        }
+        .boxB{
+            width:1rpx;
+            height:120rpx;
+            background:rgba(171,28,31,1);
+            opacity:0.3;
+            margin-left:70rpx;
+            margin-right:70rpx;
+        }
+    }
+    .mdTit{
+        width:680rpx;
+        height:136rpx;
+        margin:78rpx auto 0;
+        background:url('https://static.cgkc.com/miniprogram/gqListBg01.png')no-repeat center center;
+        background-size:cover;
+    }
+    .mdList{
+        width:690rpx;
+        height:670rpx;
+        background:rgba(255,246,230,1);
+        border-radius:20rpx;
+        margin:20rpx auto 0;
+        padding:53rpx 30rpx;
+        box-sizing: border-box;
+        swiper {
+            height: 295px!important;
+        }
+        .item{
+            display:flex;
+            font-size:28rpx;
+            margin-bottom:28rpx;
+            i{
+                display:inline-block;
+                width:45rpx;
+                height:44rpx;
+                border-radius: 50%;
+                overflow:hidden;
+                img{
+                    width:45rpx;
+                    height:44rpx;
+                }
+            }
+            span{
+                margin-left:22rpx;
+            }
+            .title{
+                color:#707070
+            }
+            .tips{
+                color:#222
+            }
+        }
+    }
+
+
+}
+.footer{
+    width:750rpx;
+    height:110rpx;
+    background:url('https://static.cgkc.com/miniprogram/gqFootBg.png')no-repeat center center #ab1c1f;
+    background-size:cover;
+    overflow:hidden;
+    .footLogo{
+        width:360rpx;
+        height:40rpx;
+        margin:0 auto 0;
+        background:url('https://static.cgkc.com/miniprogram/gqFootLogo.png')no-repeat center center;
+        background-size:cover;
+    }
+}
+
+.lpPopUp{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    position:fixed;
+    z-index:9999;
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:rgba(0,0,0,0.9);
+    .showLpBox{
+        position:relative;
+        width:543rpx;
+        height:705rpx;
+        background:url('https://static.cgkc.com/miniprogram/gqShowPrize.png')no-repeat center center;
+        background-size:cover;
+        .s_pub{
+            position:absolute;
+            top:163rpx;
+            left:210rpx;
+            width:124rpx;
+            height:78rpx;
+            text-align: center;
+            img{
+                display:block;
+                width:124rpx;
+                height:78rpx;
+            }
+            .prizeName{
+                font-size:28rpx;
+                color:#F20202;
+                font-weight:bold;
+            }
+        }
+        .lp{
+            background:url('https://static.cgkc.com/miniprogram/minYpIcon01_new.png')no-repeat center center;
+            background-size:cover;
+        }
+        .lp02{
+            background:url('https://static.cgkc.com/miniprogram/minYpIcon02_new.png')no-repeat center center;
+            background-size:cover;
+        }
+        .lp03{
+            background:url('https://static.cgkc.com/miniprogram/minYpIcon03_new.png')no-repeat center center;
+            background-size:cover;
+        }
+        .lp04{
+            background:url('https://static.cgkc.com/miniprogram/minYpIcon04_new.png')no-repeat center center;
+            background-size:cover;
+        }
+        .lp05{
+            background:url('https://static.cgkc.com/miniprogram/minYpIcon05_new.png')no-repeat center center;
+            background-size:cover;
+        }
+    }
+}

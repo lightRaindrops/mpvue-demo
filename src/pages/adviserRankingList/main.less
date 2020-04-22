@@ -1,0 +1,106 @@
+@import '../../less/common.less';
+.adviserRankingList {
+    width:100%;
+    background:#fff;
+    .tipInfo{
+        display:flex;
+        align-items: center;
+        height:60rpx;
+        background:rgba(243,7,25,0.1);
+        font-size:24rpx;
+        padding:0 30rpx;
+        box-sizing: border-box;
+        .time{
+            color:#333;
+        }
+        .mj{
+            span{
+                width:438rpx;
+                overflow: hidden;text-overflow: ellipsis;display: box;display: -webkit-box;display: -moz-box;-webkit-line-clamp:1;-moz-line-clamp:1!important;-webkit-box-orient: vertical;-moz-box-orient: vertical;
+            }
+            margin-left:20rpx;
+            color:#F30719;
+        }
+    }
+    .pxList{
+        padding:0 25rpx;
+        .item{
+            display:flex;
+            align-items: center;
+            height:152rpx;
+            border-bottom:1px solid #EDEDED;
+            .xh{
+                margin-right:16rpx;
+                width:34rpx;
+                height:43rpx;
+            }
+            .orderXh{
+                margin-right:16rpx;
+                width:34rpx;
+                height:43rpx;
+                font-size:32rpx;
+                color:#333;
+            }
+            .oneXh{
+                background:url('https://static.cgkc.com/miniprogram/taskNewPxIcon001.png')no-repeat center center;
+                background-size:cover;
+            }
+            .twoXh{
+                background:url('https://static.cgkc.com/miniprogram/taskNewPxIcon002.png')no-repeat center center;
+                background-size:cover;
+            }
+            .threeXh{
+                background:url('https://static.cgkc.com/miniprogram/taskNewPxIcon003.png')no-repeat center center;
+                background-size:cover;
+            }
+            .headImg{
+                width:80rpx;
+                height:80rpx;
+                border-radius: 50%;
+                overflow:hidden;
+                img{
+                    width:80rpx;
+                    height:80rpx;
+                }
+            }
+            .name{
+                margin-left:24rpx;
+                .me{
+                    color:#F30719;
+                    font-size:32rpx;
+                }
+                .order{
+                    font-size:32rpx;
+                    color:#333;
+                }
+                .sort{
+                    color:#999;
+                    font-size:24rpx;
+                }
+            }
+            .count{
+                margin-left:auto;
+                color:#666;
+                font-size:28rpx;
+            }
+        }
+    }
+
+}
+
+.swiper_container {
+    width: 414rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+}
+
+.swiper_item {
+    font-size: 30rpx;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+}
+

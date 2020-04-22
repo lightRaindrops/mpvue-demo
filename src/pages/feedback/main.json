@@ -1,0 +1,8 @@
+{
+    "navigationBarTitleText": "意见反馈",
+    "usingComponents": {
+        "van-field": "../../static/vant/field/index",
+        "wux-upload": "../../static/wux/upload/index"
+    },
+    "enablePullDownRefresh": false
+}

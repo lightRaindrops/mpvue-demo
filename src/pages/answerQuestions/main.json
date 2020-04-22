@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-loading": "../../static/vant/loading/index",
+    "van-field": "../../static/vant/field/index",
+    "wux-upload":"../../static/wux/upload/index"
+  },
+  "navigationBarTitleText": "回答问题",
+  "enablePullDownRefresh": false
+}

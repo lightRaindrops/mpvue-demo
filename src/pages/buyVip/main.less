@@ -1,0 +1,221 @@
+radio {
+    transform: scale(0.7);
+}
+
+body,
+page {
+    background: #f2f2f2;
+    color: #333;
+    font-size: 24rpx;
+}
+
+.buyVip {
+    background: #fff;
+    margin: 24rpx;
+    border-radius: 12rpx;
+    padding-bottom: 10rpx;
+
+    .title {
+        padding-top: 28rpx;
+
+        .icon {
+            width: 50rpx;
+            height: 46rpx;
+        }
+
+        .txt {
+            margin-left: 20rpx;
+            color: #333333;
+            font-size: 30rpx;
+        }
+    }
+
+    .items.vipType {
+        padding: 24rpx;
+
+        .item {
+            width: 312rpx;
+            padding: 20rpx;
+            background: #fff;
+            border: 1rpx solid #b1b1b1;
+            border-radius: 12rpx;
+            margin-top: 20rpx;
+            position: relative;
+
+            &.on {
+                background: #fef0d9;
+                border: 1rpx solid #cfa972;
+            }
+
+
+
+            .jiaobiao_yikaitong {
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 80rpx;
+                height: 80rpx;
+            }
+
+            &:nth-child(2n) {
+                margin-left: 28rpx;
+            }
+
+            .il {
+                flex: 1;
+            }
+
+            .b {
+                .aa {
+                    color: #010101;
+                    font-size: 24rpx;
+                }
+
+                .bb {
+                    text-decoration: line-through;
+                    color: #666;
+                    font-size: 20rpx;
+                    margin-left: 24rpx;
+                }
+            }
+
+            &.isDisabled {
+                background: rgba(242, 242, 242, 1);
+                border: 1rpx solid rgba(204, 204, 204, 1);
+                color: #999;
+
+                .aa,
+                .bb {
+                    color: #999;
+                }
+            }
+        }
+    }
+
+    .info {
+        margin: 24rpx;
+
+        .bt {
+            color: #333333;
+            font-size: 24rpx;
+        }
+
+        .ny {
+            margin-top: 24rpx;
+            position: relative;
+            width: 266rpx;
+            height: 167rpx;
+
+            .bg {
+                position: absolute;
+                z-index: 1;
+                width: 100%;
+                height: 100%;
+            }
+
+            .txt {
+                color: #e1c188;
+                font-size: 24rpx;
+                position: absolute;
+                z-index: 2;
+                padding-left: 110rpx;
+                width: 100%;
+                height: 100%;
+
+            }
+        }
+
+        .payInfo {
+            padding-top: 8rpx;
+
+            .line {
+                padding-top: 22rpx;
+
+                .bb {
+                    color: #666;
+                    font-size: 20rpx;
+                    margin-left: 36rpx;
+                    text-decoration: line-through;
+                }
+            }
+        }
+
+        .payType {
+            margin-top: 36rpx;
+
+            .item {
+                padding-top: 27rpx;
+
+                .icon.wxzf {
+                    width: 36rpx;
+                    height: 32rpx;
+                    margin-right: 20rpx;
+                }
+
+                .ye,
+                .yebz {
+                    margin-left: 28rpx;
+                }
+
+                .yebz {
+                    color: #ff0000;
+                }
+            }
+        }
+    }
+
+}
+
+.fixedBottomCopy{
+    height: 250rpx;
+}
+
+.fixedBottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+
+    .tip {
+        padding: 28rpx 40rpx;
+        font-size: 22rpx;
+        background: #FBF8D9;
+        color: #FBB039;
+    }
+
+    .payWrap {
+        padding: 34rpx 40rpx;
+
+        .price {
+            font-size: 30rpx;
+            color: #FF0000;
+            font-weight: bold;
+        }
+
+    }
+}
+
+
+
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.payNow {
+    width: 220rpx;
+    height: 76rpx;
+    background: linear-gradient(86deg, rgba(242, 21, 12, 1), rgba(242, 73, 12, 1));
+    border-radius: 36rpx;
+    color: #fff;
+    font-size: 24rpx;
+
+    &.disabled {
+        color: #999999;
+        background: #fff;
+        border: 1rpx solid #999999;
+    }
+}

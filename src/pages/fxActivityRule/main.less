@@ -1,0 +1,100 @@
+@import '../../less/common.less';
+.pointRuleBox{
+  width:100%;
+  .userBox{
+    display:flex;
+    align-items:center;
+    padding:40rpx 34rpx;
+    box-sizing:border-box;
+    background:#fff;
+    .headerImg{
+      width:120rpx;
+      height:120rpx;
+      border-radius:50%;
+      margin-right:30rpx;
+      overflow:hidden;
+      img{
+        display:block;
+        width:100%;
+        height:120rpx;
+      }
+    }
+    .userInfo{
+      .userName{
+        font-size:32rpx;
+        color:#323232;
+      }
+      .userCount{
+        margin-top:5rpx;
+        font-size:22rpx;
+        color:#999;
+      }
+    }
+  }
+  .ruleTip{
+    padding:35rpx 20rpx;
+    box-sizing:border-box;
+    color:#323232;
+    font-size:24rpx;
+    .text{
+      line-height:50rpx;
+    }
+  }
+  .dayPrizeBox{
+    .title{
+      width:100%;
+      height:64rpx;
+      line-height:64rpx;
+      background:#F3F3F3;
+      font-size:28rpx;
+      color:#323232;
+      padding-left:33rpx;
+      box-sizing: border-box;
+    }
+    .cont{
+      padding:17rpx 20rpx 72rpx 20rpx;
+      box-sizing: border-box;
+      .desc{
+        font-size:24rpx;
+        color:#999;
+      }
+      table{
+        width:100%;
+        border-collapse:collapse;
+        border-right:1px solid #DFDFDF;
+        border-bottom:1px solid #DFDFDF;
+        thead{
+          tr{
+            display:flex;
+            td{
+              flex:1;
+              text-align:center;
+              height:74rpx;
+              line-height:74rpx;
+              background:rgba(245,245,244,1);
+              color:#323232;
+              border-top:1px solid #DFDFDF;
+              border-left:1px solid #DFDFDF;
+            }
+          }
+        }
+        tbody{
+          tr{
+            display:flex;
+            td{
+              flex:1;
+              text-align:center;
+              padding:25rpx 0;
+              box-sizing: border-box;
+              color:#323232;
+              border-top:1px solid #DFDFDF;
+              border-left:1px solid #DFDFDF;
+
+            }
+          }
+        }
+
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "navigationBarTitleText": "个人资料",
+    "usingComponents": {
+        "van-field": "../../static/vant/field/index",
+        "van-radio": "../../static/vant/radio/index",
+        "wux-upload": "../../static/wux/upload/index",
+        "van-radio-group": "../../static/vant/radio-group/index",
+        "van-action-sheet": "../../static/vant/action-sheet/index"
+    },
+    "enablePullDownRefresh": false
+}

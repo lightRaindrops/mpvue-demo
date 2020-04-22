@@ -1,0 +1,73 @@
+radio {
+    transform: scale(0.7);
+}
+
+body,page{
+    background: #f2f2f2;
+    color: #333;
+    font-size: 24rpx;
+}
+.buyCard {
+    background: #fff;
+    margin: 24rpx;
+    border-radius: 12rpx;
+    padding-bottom: 32rpx;
+    
+    .info{
+        margin: 24rpx;
+        .payInfo{
+            padding-top: 8rpx;
+            .line{
+                padding-top: 22rpx;
+                .price{
+                    color: #FF0000;
+                }
+            }
+        }
+
+        .payType{
+            margin-top: 36rpx;
+            .item{
+                padding-top: 27rpx;
+                .icon.wxzf {
+                    width: 36rpx;
+                    height: 32rpx;
+                    margin-right: 20rpx;
+                }
+
+                .ye,
+                .yebz {
+                    margin-left: 28rpx;
+                }
+
+                .yebz {
+                    color: #ff0000;
+                }
+            }
+        }
+    }
+    button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    button.payNow{
+        margin: 0 auto;
+        margin-top: 6rpx;
+        width:562rpx;
+        height:54rpx;
+        background:linear-gradient(86deg, rgba(249, 214, 158, 1), rgba(201, 160, 104, 1));
+        border-radius:27rpx;
+        color: #fff;
+        &.disabled {
+            color: #999999;
+            background: #fff;
+            border: 1rpx solid #999999;
+        }
+    }
+}
+
+.tip{
+    margin: 24rpx;
+    color: #999999;
+}

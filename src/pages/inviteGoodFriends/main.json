@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "van-popup": "../../static/vant/popup/index"
+  },
+  "navigationBarTitleText": "邀请好友",
+  "enablePullDownRefresh":false
+}

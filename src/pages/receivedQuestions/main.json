@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "van-loading": "../../static/vant/loading/index",
+    "fan-count-down": "../../static/qing/count-down/index"
+  },
+  "navigationBarTitleText": "我的订单"
+}

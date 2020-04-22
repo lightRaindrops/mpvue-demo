@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "顾问",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+}

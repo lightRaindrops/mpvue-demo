@@ -1,0 +1,224 @@
+// .step {
+//     width: 690rpx;
+//     height: 68rpx;
+//     background: rgba(255, 249, 244, 1);
+//     border-radius: 4rpx;
+//     margin: 0 auto;
+
+//     .dian {
+//         width: 59rpx;
+//         height: 3rpx;
+//         margin: 0 24rpx;
+//     }
+
+//     .txt {
+//         font-size: 24rpx;
+//         color: #333333;
+//     }
+
+//     .icon {
+//         width: 36rpx;
+//         margin-right: 10rpx;
+//         height: 36rpx;
+//         text-align: center;
+//         color: #ff6108;
+//         background: rgba(255, 228, 209, 1);
+//         border-radius: 50%;
+//     }
+// }
+
+page {
+    padding: 0 30rpx;
+    font-size: 32rpx;
+    color: #222;
+}
+.title {
+    padding-top: 30rpx;
+    display: flex;
+    justify-content: space-between;
+
+    .count {
+        font-size: 24rpx;
+        color: #999;
+        display: flex;
+        i {
+            font-style: normal;
+            color: #333;
+        }
+    }
+}
+
+.textareaBox {
+    //   padding-bottom: 100rpx;
+    //   width: 690rpx;
+
+    .field-index--van-field {
+        padding: 0 !important;
+        background-color: #fff !important;
+        height: 532rpx !important;
+        color: #d5d5d5 !important;
+    }
+
+    margin: 0 auto;
+    background: #fff;
+    .van-field__input {
+        height: 380rpx;
+    }
+
+    .max {
+        color: #d3381c;
+    }
+    .min {
+        color: #333;
+    }
+}
+
+.types {
+    width: 690rpx;
+    margin: 0 auto;
+    margin-top: 40rpx;
+
+    .bt {
+        font-size: 32rpx;
+        color: #333;
+    }
+
+    .items {
+        margin-top: 2rpx;
+        flex-wrap: wrap;
+
+        .item {
+            text-align: center;
+            width: 210rpx;
+            height: 68rpx;
+            margin-right: 30rpx;
+            margin-top: 30rpx;
+            border: 2rpx solid #f2f2f2;
+            border-radius: 100rpx;
+            line-height: 64rpx;
+            text-align: center;
+            background: #f2f2f2;
+            color: #666;
+
+            &:nth-child(3n) {
+                margin-right: 0;
+            }
+
+            &.on {
+                background: #fff;
+                color: #f30719;
+                border: 2rpx solid #f30719;
+            }
+        }
+    }
+}
+
+.xsBox {
+    width: 690rpx;
+    margin: 0 auto;
+    margin-top: 60rpx;
+
+    .bt {
+        font-size: 32rpx;
+        color: #333;
+    }
+
+    .items {
+        margin-top: 2rpx;
+        flex-wrap: wrap;
+
+        .item {
+            text-align: center;
+            width: 114rpx;
+            margin-right: 30rpx;
+            margin-top: 30rpx;
+            border-radius: 100rpx;
+            line-height: 1;
+            padding: 16rpx 0;
+            text-align: center;
+            background: #f9f9f9;
+            border: 2rpx solid #f9f9f9;
+            color: #666;
+            &:nth-child(5n) {
+                margin-right: 0;
+            }
+
+            &.on {
+                color: #ff8a3b;
+                border: 2rpx solid #ff8a3b;
+            }
+        }
+    }
+    .custom {
+        margin-top: 30rpx;
+        align-items: center;
+        justify-content: space-between;
+        color: #999;
+        font-size: 32rpx;
+        input {
+            font-size: 28rpx;
+            text-align: center;
+            color: #666;
+            width: 474rpx;
+            height: 84rpx;
+            background: rgba(249, 249, 249, 1);
+            border-radius: 42rpx;
+        }
+        // .custom-box {
+        //     // background-color: pink;
+        //     border:none !important;
+        // }
+    }
+}
+
+.next {
+    padding: 60rpx 0;
+    z-index: 999;
+    .btn {
+        box-shadow: 0rpx 0rpx 10rpx 0rpx rgba(211, 56, 28, 0.5);
+        border-radius: 42rpx;
+        padding: 0;
+        width: 690rpx;
+        height: 84rpx;
+        line-height: 84rpx !important;
+    }
+    .btn_not {
+        background-color: #e17460;
+    }
+    .btn_next {
+        background: #d3381c;
+    }
+}
+
+.uploadWrap {
+    position: relative;
+    width: 690rpx;
+    margin: 0 auto;
+    margin-top: -140rpx;
+    padding-left: 30rpx;
+    .wux-upload--picture-card .wux-upload__files {
+        float: none;
+        height: 130rpx;
+    }
+    .wux-upload--picture-card .wux-upload__file {
+        width: 120rpx;
+        height: 120rpx;
+    }
+
+    .wux-upload--picture-card .wux-upload__button image {
+        display: block;
+    }
+
+    .wux-upload--picture-card .wux-upload__select {
+        display: block;
+        border: 0;
+        // float:none;
+        width: 120rpx;
+        height: 120rpx;
+    }
+    // .image{
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    // }
+}

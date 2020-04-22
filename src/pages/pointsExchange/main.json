@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "van-field": "../../static/vant/field/index"
+  },
+  "navigationBarTitleText": "确认兑换",
+  "enablePullDownRefresh": false
+}

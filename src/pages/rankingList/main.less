@@ -1,0 +1,675 @@
+
+.rankingBox{
+  position:relative;
+  width:750rpx;
+  min-height:2364rpx;
+  overflow:hidden;
+
+  background-image:url('https://static.cgkc.com/miniprogram/pxbBg3.png');
+  background-repeat:no-repeat;
+  background-color:#ff9818;
+  /*background-size:cover;*/
+  .rankingTitle{
+    width:733rpx;
+    height:391rpx;
+    margin:47rpx auto 0;
+    background:url('https://static.cgkc.com/miniprogram/pxbTitle2.png')no-repeat center center;
+    background-size:cover;
+  }
+  .weekTab{
+    margin-top:30rpx;
+    ul{
+      display:flex;
+      align-items:center;
+      margin-left:15rpx;
+      li{
+        padding-top:5rpx;
+        box-sizing: border-box;
+        width:238rpx;
+        height:80rpx;
+        text-align: center;
+        border:2rpx solid rgba(252,250,183,1);
+        border-radius:40px;
+        margin-right:15rpx;
+        .week{
+          font-size:28rpx;
+          color:#FCFAB7
+        }
+        .date{
+          font-size:20rpx;
+          color:#FCFAB7;
+        }
+      }
+      li:last-child{
+        padding-top:0;
+        line-height:80rpx;
+        color:#FCFAB7;
+        font-size:28rpx;
+      }
+      li.act{
+        background:linear-gradient(0deg,rgba(252,240,109,1),rgba(255,224,51,1),rgba(251,255,206,1));
+        .week{
+          font-size:28rpx;
+          color:#8F512B
+        }
+        .date{
+          font-size:20rpx;
+          color:#8F512B;
+        }
+      }
+    }
+  }
+  .bestBox{
+    width:704rpx;
+    margin:0rpx auto 0;
+    .bestTab{
+      ul{
+        display:flex;
+        align-items:center;
+        li{
+          width:350rpx;
+          height:76rpx;
+          line-height:76rpx;
+          text-align:center;
+          background:#DCDCDC;
+          border-radius:30rpx 30rpx 0rpx 0rpx;
+          margin-right:4rpx;
+          font-size:28rpx;
+          color:#fff;
+        }
+        li:last-child{
+          margin-right:0;
+        }
+        li.curAct{
+          background:#fff;
+          color:#666;
+        }
+      }
+    }
+    .bestCont{
+      width:704rpx;
+      background:#fff;
+      border:1px solid transparent;
+        border-radius:0 0 20rpx 20rpx;
+      .bestGw{
+        .prizeUser{
+          position:relative;
+          width:642rpx;
+          height:900rpx;
+          margin:104rpx auto 0;
+          background:#FFF5D3;
+          border-radius:10rpx;
+
+          .title{
+            position:absolute;
+            top:-42rpx;
+            left:147rpx;
+            width:346rpx;
+            height:85rpx;
+            line-height:85rpx;
+            text-align: center;
+            margin:0 auto;
+            background:url('https://static.cgkc.com/miniprogram/weekTitleBg.png')no-repeat center center;
+            background-size:cover;
+            font-size:32rpx;
+            color:#8F512B;
+          }
+          .qsmBox{
+            position:relative;
+            padding:67rpx 20rpx 0 20rpx;
+            box-sizing: border-box;
+
+            ul{
+              position:relative;
+              display:flex;
+              justify-content:center;
+              align-items:center;
+              li{
+                position:relative;
+                flex:1;
+                text-align:center;
+                .userImg{
+                  width:84rpx;
+                  height:84rpx;
+                  margin:0 auto;
+                  border-radius:50%;
+                  overflow:hidden;
+                  img{
+                    display:block;
+                    width: 100%;
+                    height:84rpx;
+                  }
+                }
+                .userName{
+                  width:132rpx;
+                  overflow: hidden;
+                  text-overflow:ellipsis;
+                  white-space: nowrap;
+                  font-size:28rpx;
+                  color:#8F512B;
+                  margin-top:15rpx auto 0;
+                }
+                .userTel{
+                  font-size:20rpx;
+                  color:#8F512B;
+                }
+                .pmLv{
+                  position:absolute;
+                  left:-32rpx;
+                  top:0;
+                  width:50rpx;
+                  height:47rpx;
+                  img{
+                    display:block;
+                    width:100%;
+                    height:47rpx;
+                  }
+                }
+              }
+              li:nth-child(1){
+                position:absolute;
+                left:40.3%;
+                top:2rpx;
+              }
+              li:nth-child(2){
+                position:absolute;
+                left:33rpx;
+                top:2rpx;
+              }
+              li:nth-child(3){
+                position:absolute;
+                left:72%;
+                top:2rpx;
+              }
+            }
+            .jfBox{
+              width:550rpx;
+              height:125rpx;
+              margin:205rpx auto 0;
+              background:url('https://static.cgkc.com/miniprogram/gwjfBg.png')no-repeat center center;
+              background-size:cover;
+              ul{
+                position:relative;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                li{
+                  flex:1;
+                  height:125rpx;
+                  line-height:125rpx;
+                  text-align:center;
+                  font-size:40rpx;
+                  width:33%;
+                }
+                li:nth-child(1){
+                  position:absolute;
+                  left:33%;
+                  top:10rpx;
+                  color:#fff;
+                }
+                li:nth-child(2){
+                  position:absolute;
+                  left:0;
+                  top:28rpx;
+                  color:#8F512B;
+                }
+                li:nth-child(3){
+                  position:absolute;
+                  left:66%;
+                  top:28rpx;
+                  color:#8F512B;
+                }
+              }
+            }
+          }
+          .syhBox{
+            overflow:hidden;
+            .tit{
+              width:100%;
+              height:62rpx;
+              line-height:62rpx;
+              background:#FBDD7E;
+              ul{
+                display:flex;
+                li{
+                  flex:1;
+                  text-align:center;
+                  font-size:30rpx;
+                  color:#8F512B;
+                }
+              }
+            }
+            .conts{
+              width:100%;
+              line-height:62rpx;
+              background:#FFF5D3;
+              ul{
+                li{
+                  display:flex;
+                  text-align:center;
+                  font-size:30rpx;
+                  color:#8F512B;
+                  .head_user{
+                    text-align:left;
+                    padding-left:15rpx;
+                    box-sizing: border-box;
+                  }
+                  span{
+                    flex:1;
+                    .userHead{
+                      display:inline-block;
+                      width:40rpx;
+                      height:40rpx;
+                      overflow:hidden;
+                      border-radius:50%;
+                      vertical-align:middle;
+                      margin-right:20rpx;
+                      img{
+                        display:block;
+                        width:100%;
+                        height:40rpx;
+                      }
+                    }
+                  }
+                    .prizeBox{
+                        font-size:24rpx;
+                        overflow: hidden;text-overflow: ellipsis;display: box;display: -webkit-box;display: -moz-box;-webkit-line-clamp:1;-moz-line-clamp:1!important;-webkit-box-orient: vertical;-moz-box-orient: vertical;
+                    }
+
+                }
+                li:nth-child(2n){
+                  color:#8F512B;
+                  background:#FBDD7E;
+                }
+              }
+            }
+          }
+        }
+        .phbBox{
+          margin-top:40rpx;
+          .phbTitle{
+            width:631rpx;
+            height:159rpx;
+              text-align: center;
+            margin:0 auto;
+            background:url('https://static.cgkc.com/miniprogram/pxbTimeBg.png')no-repeat center center;
+            background-size:cover;
+            font-size:32rpx;
+            color:#fff;
+            padding-top:65rpx;
+            padding-right:80rpx;
+            padding-left:70rpx;
+            box-sizing: border-box;
+          }
+          .showUserInfo{
+            width:643rpx;
+            height:247rpx;
+            margin:196rpx auto 0;
+            background:url('https://static.cgkc.com/miniprogram/qsmphBg.png')no-repeat center center;
+            background-size:cover;
+            ul{
+              display:flex;
+              li{
+                text-align:center;
+                height:247rpx;
+              }
+              li:nth-child(1){
+                position:relative;
+                left:29.3%;
+                width:269rpx;
+                padding-top:90rpx;
+                box-sizing: border-box;
+                .phb_userImg{
+                  position:absolute;
+                  left:62rpx;
+                  top:-128rpx;
+                  width:140rpx;
+                  height:140rpx;
+                  overflow:hidden;
+                  border-radius:50%;
+                  img{
+                    display:block;
+                    width:100%;
+                    height:140rpx;
+                  }
+                }
+                .phb_jf{
+                  font-size:30rpx;
+                  color:#fff;
+                }
+                .phb_tel{
+                  font-size:24rpx;
+                  width:162rpx;
+                  height:32rpx;
+                  margin:8rpx auto 0;
+                  background:#CD4429;
+                  color:#fff;
+                  opacity:0.5;
+                  border-radius:16px;
+                }
+                .pxLvIcon{
+                  position:absolute;
+                  left:70rpx;
+                  top:-205rpx;
+                  width:120rpx;
+                  height:96rpx;
+                  background:url('https://static.cgkc.com/miniprogram/pxLvIcon01.png')no-repeat center center;
+                  background-size:cover;
+                }
+              }
+              li:nth-child(2){
+                position:relative;
+                left:-41.3%;
+                width:187rpx;
+                padding-top:120rpx;
+                box-sizing: border-box;
+                .phb_userImg{
+                  position:absolute;
+                  left:24rpx;
+                  top:-74rpx;
+                  width:140rpx;
+                  height:140rpx;
+                  overflow:hidden;
+                  border-radius:50%;
+                  img{
+                    display:block;
+                    width:100%;
+                    height:140rpx;
+                  }
+                }
+                .phb_jf{
+                  font-size:30rpx;
+                  color:#fff;
+                }
+                .phb_tel{
+                  font-size:24rpx;
+                  width:162rpx;
+                  height:32rpx;
+                  margin:8rpx auto 0;
+                  background:#CD4429;
+                  color:#fff;
+                  opacity:0.5;
+                  border-radius:16px;
+                }
+                .pxLvIcon{
+                  position:absolute;
+                  left:33rpx;
+                  top:-147rpx;
+                  width:120rpx;
+                  height:96rpx;
+                  background:url('https://static.cgkc.com/miniprogram/pxLvIcon02.png')no-repeat center center;
+                  background-size:cover;
+                }
+              }
+              li:nth-child(3){
+                position:relative;
+                width:187rpx;
+                padding-top:135rpx;
+                box-sizing: border-box;
+                .phb_userImg{
+                  position:absolute;
+                  left:24rpx;
+                  top:-42rpx;
+                  width:140rpx;
+                  height:140rpx;
+                  overflow:hidden;
+                  border-radius:50%;
+                  img{
+                    display:block;
+                    width:100%;
+                    height:140rpx;
+                  }
+                }
+                .phb_jf{
+                  font-size:30rpx;
+                  color:#fff;
+                }
+                .phb_tel{
+                  font-size:24rpx;
+                  width:162rpx;
+                  height:32rpx;
+                  margin:8rpx auto 0;
+                  background:#CD4429;
+                  color:#fff;
+                  opacity:0.5;
+                  border-radius:16px;
+                }
+                .pxLvIcon{
+                  position:absolute;
+                  left:33rpx;
+                  top:-125rpx;
+                  width:120rpx;
+                  height:96rpx;
+                  background:url('https://static.cgkc.com/miniprogram/pxLvIcon03.png')no-repeat center center;
+                  background-size:cover;
+                }
+              }
+            }
+          }
+          .myPmBox{
+            width:724rpx;
+            height:188rpx;
+            background:#FFD800;
+            border-radius:12rpx 12rpx 0rpx 0rpx;
+            margin-left:-12rpx;
+            .pmCont{
+              display:flex;
+              padding:0 30rpx;
+              box-sizing: border-box;
+              .myPm{
+                flex:1;
+                height:188rpx;
+                text-align:center;
+                .num{
+                  font-size:36rpx;
+                  color:#F74C31;
+                  margin-top:50rpx;
+                }
+                .text{
+                  font-size:24rpx;
+                  color:#666;
+                }
+              }
+              .myHeadImg{
+                flex:1;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                height:188rpx;
+                text-align:center;
+                .headImg{
+                  width:106rpx;
+                  height:106rpx;
+                  border-radius:50%;
+                  overflow:hidden;
+                  img{
+                    display:block;
+                    width:100%;
+                    height:106rpx;
+                  }
+                }
+              }
+              .myJf{
+                flex:1;
+                height:188rpx;
+                text-align:center;
+                .num{
+                  font-size:36rpx;
+                  color:#F74C31;
+                  margin-top:50rpx;
+                }
+                .text{
+                  font-size:24rpx;
+                  color:#666;
+                }
+              }
+            }
+
+
+
+          }
+          .otherPxBox{
+            ul{
+                li:last-child{
+                    border-bottom:none;
+                }
+              li{
+                display:flex;
+                align-items:center;
+                height:128rpx;
+                padding:20rpx 33rpx 20rpx 58rpx;
+                box-sizing: border-box;
+                border-bottom:1px solid #E5E5E5;
+                .number{
+                  margin-right:100rpx;
+                  font-size:30rpx;
+                  color:#8F512B;
+                    width:50rpx;
+                    text-align:center;
+                }
+                .imgTel{
+                    width:420rpx;
+                  /*margin-right:130rpx;*/
+                  display:flex;
+                  align-items:center;
+                  .img{
+                    width:88rpx;
+                    height:88rpx;
+                    border-radius:50%;
+                    overflow:hidden;
+                    img{
+                      display:block;
+                      width:100%;
+                      height:88rpx;
+                    }
+                  }
+                  .tel{
+                    margin-left:10rpx;
+                    font-size:30rpx;
+                    color:#8F512B;
+                  }
+                }
+                .otherJf{
+                  font-size:30rpx;
+                  color:#8F512B;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .newActivityPrize{
+      margin-top:65rpx;
+      width:704rpx;
+      background:#fff;
+      border:8rpx solid #FFCE64;
+      box-shadow:0rpx 1rpx 20rpx 0rpx #FF871E;
+      border-radius:20rpx;
+      padding-bottom:30rpx;
+      box-sizing:border-box;
+      .prizeTitle{
+        width:474rpx;
+        height:100rpx;
+        margin:-35rpx auto 0;
+        font-size:32rpx;
+        color:#fff;
+        text-align:center;
+        line-height:100rpx;
+        background:url('https://static.cgkc.com/miniprogram/prizeTitleBg.png')no-repeat center center;
+        background-size:cover;
+      }
+      .prizeList{
+        padding:24rpx 30rpx;
+        box-sizing: border-box;
+        ul{
+          li{
+            display:flex;
+            align-items:center;
+            width:626rpx;
+            height:80rpx;
+            background:#FFEABD;
+            border-radius:14rpx;
+            color:#FF891E;
+            font-size:24rpx;
+            margin-bottom:20rpx;
+            .prizeNum{
+              width:170rpx;
+              height:80rpx;
+              line-height:80rpx;
+              border-right:4rpx solid #fff;
+              padding-left:25rpx;
+              box-sizing: border-box;
+            }
+            .prizeCont{
+              padding-left:30rpx;
+              box-sizing: border-box;
+            }
+          }
+        }
+      }
+      .prizeTip{
+        margin-top:28rpx;
+        font-size:24rpx;
+        color:#FF891E;
+        text-align:left;
+        padding-left:30rpx;
+      }
+    }
+
+    .copyRight{
+      width:100%;
+      height:118rpx;
+      line-height:118rpx;
+      text-align:center;
+      font-size:31rpx;
+      color:#fff;
+    }
+
+  }
+  .footerBtn{
+    display:flex;
+    align-items:center;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:120rpx;
+    background:linear-gradient(0deg,rgba(252,240,109,1),rgba(255,224,51,1),rgba(251,255,206,1));
+    padding:25rpx 0;
+    box-sizing: border-box;
+
+    .callFired{
+      flex:1;
+      height:70rpx;
+      line-height:70rpx;
+      background:transparent;
+      color:#8F512B;
+      font-size:36rpx;
+      border-right:4rpx solid #8F512B;
+      border-radius:0;
+    }
+    .myGo{
+      flex:1;
+      height:70rpx;
+      line-height:70rpx;
+      background:transparent;
+      color:#8F512B;
+      font-size:36rpx;
+    }
+  }
+  .toRulePage{
+    position:absolute;
+    top:44rpx;
+    right:0;
+    width:97rpx;
+    height:46rpx;
+    line-height:46rpx;
+    text-align:center;
+    font-size:28rpx;
+    color:#FF0000;
+    background:#fff;
+    border-radius:23rpx 0rpx 0rpx 23rpx;
+  }
+}

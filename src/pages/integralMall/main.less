@@ -1,0 +1,79 @@
+.integralMall {
+    padding: 16px;
+
+    .title {
+        font-size: 16px;
+        font-weight: bold;
+        color: #323232;
+        padding-bottom: 16px;
+    }
+
+    .group {
+        flex-wrap: wrap;
+
+        .item {
+            width: 48%;
+            margin-top: 16px;
+            border-radius: 10px;
+            overflow: hidden;
+
+            &:nth-child(2n) {
+                margin-left: 4%;
+            }
+
+            .img {
+                img {
+                    width: 100%;
+                }
+            }
+
+            .bot {
+                background: #f9f9f8;
+                padding: 10px;
+
+                .bt {
+                    font-size: 14px;
+                    color: #323232;
+                    padding-bottom: 10px;
+                    width: 140px;
+                    height: 20px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: box;
+                    display: -webkit-box;
+                    display: -moz-box;
+                    -webkit-line-clamp: 1;
+                    -moz-line-clamp: 1 !important;
+                    -webkit-box-orient: vertical;
+                    -moz-box-orient: vertical;
+
+                }
+
+                .scjg {
+                    padding-bottom: 10px;
+                    color: #999999;
+                    font-size: 12px;
+                }
+
+                .jfdh {
+                    .icon {
+                        width: 12px;
+                        margin-right: 4px;
+                    }
+
+                    .point {
+                        color: #ff8709;
+                        font-size: 12px;
+                    }
+
+                    button.button {
+                        padding: 6px 16px;
+                        background: #ff8405;
+                        color: #fff;
+                        border-radius: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

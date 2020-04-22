@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "wux-upload": "../../static/wux/upload/index"
+  },
+  "navigationBarTitleText": "设置中心",
+  "enablePullDownRefresh": false
+}

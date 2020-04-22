@@ -1,0 +1,9 @@
+{
+    "navigationBarTitleText": "支付",
+    "usingComponents": {
+        "van-radio": "../../static/vant/radio/index",
+        "van-radio-group": "../../static/vant/radio-group/index",
+        "van-count-down": "../../static/vant/count-down/index"
+    },
+    "enablePullDownRefresh": false
+}

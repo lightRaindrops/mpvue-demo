@@ -1,0 +1,360 @@
+@import '../../less/common.less';
+
+.myShareBox{
+    width:100%;
+    .topTab{
+        position:fixed;
+        top:0;
+        left:0;
+        z-index:99;
+        width:100%;
+        height:76rpx;
+        line-height:76rpx;
+        background:#fff;
+        border-bottom:1px solid #f1f1f1;
+        ul{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            li{
+                flex:1;
+                text-align:center;
+                font-size:28rpx;
+                color:#333;
+            }
+            li.act{
+                color:#F23D1B
+            }
+        }
+    }
+
+    .tabTiwenCont{
+        .filerCont{
+            margin:76rpx auto 0;
+            width:100%;
+            background:#fff;
+            ul{
+                li{
+                    width:688rpx;
+                    margin:0 auto;
+                    padding:40rpx 0;
+                    box-sizing: border-box;
+                    border-bottom:1rpx solid #f1f1f1;
+                    background:#fff;
+                    .headInfo{
+                        display:flex;
+                        align-items:center;
+                        .headImg{
+                            margin-right:20rpx;
+                            width:100rpx;
+                            height:100rpx;
+                            border-radius:50%;
+                            overflow:hidden;
+                            img{
+                                display:block;
+                                width:100rpx;
+                                height:100rpx;
+                            }
+                        }
+                        .nameBox{
+                            .name{
+                                font-size:32rpx;
+                                color:#323232;
+                            }
+                            .jy{
+                                margin-top:10rpx;
+                                font-size:24rpx;
+                                color:#999;
+                            }
+                        }
+                    }
+                    .descInfo{
+                        width:688rpx;
+                        margin:15rpx auto 35rpx;
+                        font-size:28rpx;
+                        color:#323232;
+                        overflow: hidden;text-overflow: ellipsis;display: box;display: -webkit-box;display: -moz-box;-webkit-line-clamp:2;-moz-line-clamp:2!important;-webkit-box-orient: vertical;-moz-box-orient: vertical;
+                    }
+                    .countInfo{
+                        font-size:24rpx;
+                        color:#B3B3B3;
+                        height:42rpx;
+                        line-height:42rpx;
+                        .flowCount{
+                            margin-right:60rpx;
+                        }
+                        .jz{
+                            text-decoration:line-through
+                        }
+
+                        .ptBtn{
+                            float:right;
+                            span{
+                                position:absolute;
+                                right:30rpx;
+                                display:inline-block;
+                                padding:6rpx 20rpx;
+                                box-sizing: border-box;
+                                color:#F6353E;
+                                text-align: center;
+                                font-size:24rpx;
+                                background:#FFECEC;
+                                border-radius:21rpx;
+                            }
+                        }
+                    }
+                }
+                li:last-child{
+                    border-bottom:0;
+                    margin-bottom:110rpx;
+                }
+            }
+
+            ul{
+                li{
+
+                    padding:40rpx 0;
+                    box-sizing: border-box;
+                    border-bottom:1px solid #f1f1f1;
+                    background:#fff;
+                    .desc{
+                        width:688rpx;
+                        font-size:28rpx;
+                        color:#323232;
+                        overflow: hidden;text-overflow: ellipsis;display: box;display: -webkit-box;display: -moz-box;-webkit-line-clamp:2;-moz-line-clamp:2!important;-webkit-box-orient: vertical;-moz-box-orient: vertical;
+                    }
+                    .btnBox{
+                        position:relative;
+                        display:flex;
+                        align-items:center;
+                        .firendsHeads{
+                            margin-left:24rpx;
+                            margin-top:20rpx;
+                            .itemList{
+                                display:inline-block;
+                                width:40rpx;
+                                height:40rpx;
+                                border-radius:50%;
+                                overflow:hidden;
+                                border:3rpx solid #fff;
+                                img{
+                                    display:block;
+                                    width:100%;
+                                }
+                            }
+                            .itemList2{
+                                margin-left:-20rpx
+                            }
+                        }
+                        .tip{
+                            font-size:24rpx;
+                            color:#999;
+                            margin-left:20rpx;
+                            margin-top:10rpx;
+                        }
+                        .goOnShareBtn{
+                            position:absolute;
+                            right:0;
+                            top:15rpx;
+                            width: 164rpx;
+                            height: 48rpx;
+                            line-height: 48rpx;
+                            border-radius: 30rpx;
+                            font-size: 28rpx;
+                            text-align: center;
+                            color:#F6353E;
+                            background:#FFECEC;
+                        }
+                    }
+                }
+            }
+        }
+
+        .shareCont{
+            width:688rpx;
+            margin:76rpx auto 0;
+            ul{
+                li{
+
+                    padding:40rpx 0;
+                    box-sizing: border-box;
+                    border-bottom:1px solid #f1f1f1;
+                    background:#fff;
+                    .desc{
+                        width:688rpx;
+                        font-size:28rpx;
+                        color:#323232;
+                        overflow: hidden;text-overflow: ellipsis;display: box;display: -webkit-box;display: -moz-box;-webkit-line-clamp:2;-moz-line-clamp:2!important;-webkit-box-orient: vertical;-moz-box-orient: vertical;
+                    }
+                    .btnBox{
+                        position:relative;
+                        display:flex;
+                        align-items:center;
+                        .firendsHeads{
+                            margin-left:24rpx;
+                            margin-top:20rpx;
+                            .itemList{
+                                display:inline-block;
+                                width:40rpx;
+                                height:40rpx;
+                                border-radius:50%;
+                                overflow:hidden;
+                                border:3rpx solid #fff;
+                                img{
+                                    display:block;
+                                    width:100%;
+                                }
+                            }
+                            .itemList2{
+                                margin-left:-20rpx
+                            }
+                        }
+                        .tip{
+                            font-size:24rpx;
+                            color:#999;
+                            margin-left:20rpx;
+                            margin-top:10rpx;
+                        }
+                        .goOnShareBtn{
+                            position:absolute;
+                            right:0;
+                            top:15rpx;
+                            width: 164rpx;
+                            height: 48rpx;
+                            line-height: 48rpx;
+                            border-radius: 30rpx;
+                            font-size: 28rpx;
+                            text-align: center;
+                            color:#F6353E;
+                            background:#FFECEC;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.qrcode-src {
+    //width:80%;
+    //height:80%;
+    width: 282px;
+    height: 500px;
+    image-rendering: -moz-crisp-edges;
+    /* Firefox */
+    image-rendering: -o-crisp-edges;
+    /* Opera */
+    image-rendering: -webkit-optimize-contrast;
+    /* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+    /* IE (non-standard property) */
+    margin-left: 35px;
+    //margin-top:10px;
+}
+
+.save-btn {
+
+    background: #FFFFFF;
+    padding: 5px;
+    height: 35px;
+    width: 100px;
+    line-height: 23px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.share-popup {
+    letter-spacing: 1px;
+    position: fixed;
+    z-index: 999;
+
+    .bottom {
+        margin-top: 15px;
+
+        .t {
+            text-align: center;
+            float: left;
+            width: 25%;
+
+            img {
+                height: 50px;
+                width: 50px;
+            }
+        }
+
+        .t1 {
+            margin-left: 21%;
+        }
+
+        .t2 {
+            margin-left: 10%;
+        }
+    }
+}
+
+
+.shareBottom{
+    .title{
+        font-size: 46rpx;
+        font-weight: bold;
+        text-align: center;
+    }
+    .intro{
+        font-size: 28rpx;
+        text-align: center;
+        margin-bottom: 20rpx;
+    }
+    .shareContentWrap{
+        border: 2rpx solid #fda44a;
+        border-radius: 20rpx;
+        overflow: hidden;
+        text-align: center; 
+    }
+    .shareContent{
+        text-align: left;
+        .tit{
+            font-size: 32rpx;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        padding: 40rpx;
+    }
+    .youhui{
+        padding: 10px 0;
+        text-align: center;
+        line-height: 2;
+    }
+    .gwInfo{
+        .img{
+            padding: 10px;
+            img{
+                width: 128rpx;
+                height: 128rpx;
+                border-radius: 50%;
+                overflow: hidden;
+            }
+        }
+        .txt{
+            text-align: left;
+            .jz{
+                margin-right: 10px;
+            }
+        }
+        background: linear-gradient(#fda149, #ff6c41);
+        color: #fff;
+    }
+}

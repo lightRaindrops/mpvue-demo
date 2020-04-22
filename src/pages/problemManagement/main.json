@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "问题管理",
+    "usingComponents": {
+        "fan-count-down": "../../static/qing/count-down/index"
+    }
+
+}
