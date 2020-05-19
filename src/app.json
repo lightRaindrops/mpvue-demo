@@ -1,6 +1,7 @@
 {
     "pages": [
-        "pages/index/main"
+        "pages/index/main",
+        "pages/about/main"
     ],
     "window": {
         "backgroundTextStyle": "dark",
@@ -12,12 +13,22 @@
     },
     "tabBar": {
         "list": [
+            {
+                "text": "首页",
+                "pagePath": "pages/index/main",
+                "iconPath": "static/tabs/home.png",
+                "selectedIconPath": "static/tabs/ac_home.png"
+            },
+            {
+                "text": "关于",
+                "pagePath": "pages/about/main",
+                "iconPath": "static/tabs/my.png",
+                "selectedIconPath": "static/tabs/ac_my.png"
+            }
         ]
     },
     "usingComponents": {
         "van-popup": "./static/vant/popup/index",
         "van-loading": "./static/vant/loading/index"
-    },
-    "navigateToMiniProgramAppIdList": [
-    ]
+    }
 }
