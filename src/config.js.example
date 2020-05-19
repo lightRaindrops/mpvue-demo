@@ -1,31 +1,21 @@
 let config
 
-let isProduct = 0
-let version = '2.2.6.1'
+let isProduct = 1
 
 if (isProduct == 1) {
     console.log('正式环境')
     config = {
-        $domain: 'api.cgkc12366.com',
-        $webBaseUrl: 'https://www.cgkc.com/',
-        $javaBaseUrl: 'https://appservice.cgkc.com',
+        $webBaseUrl: 'https://www.www.com/',
         $picRand: '171',
-        $version: version,
-        $static: 'https://static.cgkc.com/miniprogram/mini/'
+        $static: 'https://static.www.com/'
     }
 } else {
     console.log('测试环境')
     //测试
     config = {
-        $domain: 'test.cgkc.com',
-        // $session: '1551dd45bd334685a6b9a2078bff0faf',
-        $webBaseUrl: 'https://test.cgkc.com/',
-        // $webBaseUrl: 'http://localhost:3000/',
-        $javaBaseUrl: 'https://apitest.cgkc.com',
-        // $javaBaseUrl: 'http://192.168.101.11',
-        $picRand: '175',
-        $version: version,
-        $static: 'https://static.cgkc.com/miniprogram/mini/'
+        $webBaseUrl: 'https://www.www.com/',
+        $picRand: '171',
+        $static: 'https://static.www.com/'
     }
 }
 

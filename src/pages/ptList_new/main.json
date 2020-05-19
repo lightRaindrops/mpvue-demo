@@ -1,7 +1,0 @@
-{
-    "usingComponents": {
-        "van-loading": "../../static/vant/loading/index",
-        "van-popup": "../../static/vant/popup/index"
-    },
-    "navigationBarTitleText": "旁听"
-}

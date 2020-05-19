@@ -1,9 +1,0 @@
-{
-    "usingComponents": {
-        "van-tabs": "../../static/vant/tabs/index",
-        "van-tab": "../../static/vant/tab/index",
-        "van-count-down": "../../static/vant/count-down/index"
-    },
-    "navigationBarTitleText": "领券中心",
-    "enablePullDownRefresh": true
-}

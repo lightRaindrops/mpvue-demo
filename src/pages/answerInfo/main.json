@@ -1,8 +1,0 @@
-{
-  "usingComponents": {
-    "van-loading": "../../static/vant/loading/index",
-    "fan-count-down": "../../static/qing/count-down/index",
-    "van-popup": "../../static/vant/popup/index",
-    "van-field": "../../static/vant/field/index"
-  }
-}

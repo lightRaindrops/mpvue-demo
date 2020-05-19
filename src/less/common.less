@@ -22,7 +22,8 @@
 .jcc {
     justify-content: center;
 }
-.jcfe{
+
+.jcfe {
     justify-content: flex-end;
 }
 
@@ -44,61 +45,17 @@ textarea {
     color: #999;
 }
 
-a.btn {
-    color: #666;
-    background: #fff;
-    border-radius: 3px;
-    display: inline-block;
-    padding: 8px 14px;
-    border: 1px solid #f0f0f0;
-    border-radius: 3px;
-}
-
-.next {
-    position: fixed;
-    bottom: 0;
-    left:0;
-    width: 100%;
-    padding: 30px 12px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
-
-    .btn {
-        color: #fff;
-        background: none;
-        text-align: center;
-        font-size: 32rpx;
-        width: 693rpx;
-        height: 131rpx;
-        padding-top: 42rpx;
-        display: block;
-
-        &:active {
-            transform: scale(0.96, 0.96);
-        }
-    }
-}
 
 button {
     background: #fff;
     line-height: 1;
-    font-size: inherit;
-    overflow: visible;
-
-    &.normal {
-        width: 100%;
-        height: 50px;
-        line-height: 50px;
-        font-size: 18px;
-    }
-
-    &.button {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-a.button {
+a.button,
+a.btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,14 +63,6 @@ a.button {
 
 button::after {
     border: none;
-}
-
-button.line {
-    background: #fff;
-    text-align: left;
-    padding: 0;
-    line-height: normal;
-    width: 100%;
 }
 
 
@@ -200,50 +149,7 @@ image {
     overflow: hidden;
 }
 
-.multiLineText8 {
-    width: 100%;
-    position: relative;
-    word-break: break-all;
-    display: flex;
-    overflow: hidden;
-}
-
-
-
-page {
-    .sheet-index--van-action-sheet {
-        background: none;
-    }
-
-    .van-action-sheet__item {
-        margin: 0 30rpx;
-        border-radius: 0;
-
-        &:first-child {
-            border-radius: 10rpx 10rpx 0 0;
-        }
-
-        &:last-child {
-            border-radius: 0 0 10rpx 10rpx;
-            margin-bottom: 40rpx;
-        }
-    }
-
-    .van-action-sheet__cancel {
-        margin: 0 30rpx;
-        border-radius: 10rpx;
-        margin-bottom: 46rpx;
-        color: #3399FF;
-
-        &:before {
-            display: none;
-        }
-    }
-
-}
-
-
-.lh1{
+.lh1 {
     line-height: 1;
 }
 
@@ -251,5 +157,3 @@ page {
 ::-webkit-scrollbar {
     display: none;
 }
-
-

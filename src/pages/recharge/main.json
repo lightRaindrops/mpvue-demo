@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "van-loading": "../../static/vant/loading/index"
-  },
-  "navigationBarTitleText": "钱包",
-  "enablePullDownRefresh": false
-}

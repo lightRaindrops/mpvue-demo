@@ -1,8 +1,0 @@
-{
-  "usingComponents": {
-    "van-loading": "../../static/vant/loading/index",
-    "van-field": "../../static/vant/field/index"
-  },
-  "navigationBarTitleText": "评价",
-  "enablePullDownRefresh": false
-}

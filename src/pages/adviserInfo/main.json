@@ -1,7 +1,0 @@
-{
-    "navigationBarTitleText": "",
-    "usingComponents": {
-        "van-tabs": "../../static/vant/tabs/index",
-        "van-tab": "../../static/vant/tab/index"
-    }
-}

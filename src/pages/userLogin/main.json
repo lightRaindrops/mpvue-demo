@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "van-field": "../../static/vant/field/index",
-    "van-button": "../../static/vant/button/index"
-  },
-  "navigationBarTitleText": "注册/登录"
-}

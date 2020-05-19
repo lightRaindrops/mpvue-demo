@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "van-loading": "../../static/vant/loading/index"
-  },
-  "navigationBarTitleText": "裁剪图片",
-  "enablePullDownRefresh": false
-}

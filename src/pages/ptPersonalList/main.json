@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "van-loading": "../../static/vant/loading/index",
-    "van-field": "../../static/vant/field/index"
-  }
-}

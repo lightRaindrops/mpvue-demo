@@ -1,8 +1,0 @@
-
-<view>
-  <view wx:for="{{wearList.datetime}}" wx:for-item="item" wx:key="id">
-    <view class='dates'>{{item.difftime}}</view>
-  </view>
-</view>
-
-<slot></slot>

@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "van-loading": "../../static/vant/loading/index"
-  },
-  "navigationBarTitleText": "提现",
-  "enablePullDownRefresh": false
-}

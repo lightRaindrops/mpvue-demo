@@ -32,44 +32,6 @@ export default {
                 }
             })
         }
-
-
-        //更新图片版本号
-
-        {
-            let url = $.url('config')
-            $.pp(url, res => {
-                $.picRand = res.picRand
-            })
-        }
-
-        //发送心跳
-
-        setInterval(() => {
-            $.heartbeat()
-        }, 1000 * 60 * 5)
-
-
-
-
-        //保存是否为顾问
-
-        $.isLogin(() => {
-            $.setIsAdviser()
-            let isAddParam = $.getLocal('isAddParam')
-
-            if (options.scene == 1089 && !isAddParam) {
-                let url = $.url('addParam')
-                $.pp(url, function (res) {
-                    $.setLocal('isAddParam', true)
-                })
-            }
-
-
-            $.setLocal('isShowAddMyFavorites', true)
-        })
-
-
     }
 
 }

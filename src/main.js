@@ -1,10 +1,3 @@
-//引入阿拉丁统计
-import './tongji/ald/ald-stat'
-
-//引入小盟广告
-
-import './sdk/dsp_sdk'
-
 //引入promise封装
 import './utils/wxPromise.min'
 

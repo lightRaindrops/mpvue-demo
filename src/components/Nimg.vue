@@ -22,7 +22,7 @@ export default {
     computed: {
         newSrc() {
             let src = this.src
-            if (src && (src.includes('http:') || src.includes('https:') || src.includes('//static.cgkc'))) {
+            if (src && (src.startsWith('http:') || src.startsWith('https:') || src.startsWith('//'))) {
                 return src
             }
             return $.$img(src)
