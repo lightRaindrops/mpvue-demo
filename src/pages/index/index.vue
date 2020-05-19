@@ -1,25 +1,26 @@
-<template></template>
+<template>
+    <div></div>
+</template>
 
 <style lang="less">
 </style>
 
 
 <script>
-import $ from '@/common'
+import $ from "@/common";
+import Nimg from "@/components/Nimg";
 
 export default {
     data() {
-        return {}
+        return {};
     },
     computed: {},
     methods: {},
     components: {
         Nimg
     },
-    onLoad(o) {
-        
-    },
-}
+    onLoad(o) {}
+};
 </script>
 
 

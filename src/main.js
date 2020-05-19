@@ -1,6 +1,3 @@
-//引入promise封装
-import './utils/wxPromise.min'
-
 import Vue from 'vue'
 import App from './App'
 
