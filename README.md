@@ -1,9 +1,5 @@
-# 初始化项目
-vue init mpvue/mpvue-quickstart myproject
-cd myproject
-
 # 安装依赖
-yarn
+npm i
 
 # 开发时构建
 npm dev
